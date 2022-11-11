@@ -2,17 +2,9 @@
 Convert the dataset from csv to yolo format
 """
 import re
-import os
 import csv
 import shutil
 
-# cwd = os.getcwd()
-# folder = '/dataset/'
-# # files = ['/test.csv', '/train.csv']
-# input_files = ['train.csv']
-
-# image_x = 1280
-# image_y = 720
 
 # Read Annotations Part
 def get_annotation_info(cwd, folder, input_files, image_x, image_y): 
